@@ -13,3 +13,14 @@ type then
 type bash
 type psql
 type ./five.sh
+ls --color=auto
+git init
+git remote add origin https://github.com/SinaeHong0424/LearnBashScriptingByBuildingFivePrograms_Relational-Database
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/SinaeHong0424/LearnBashScriptingByBuildingFivePrograms_Relational-Database.git
+git add bingo.sh countdown.sh five.sh fortune.sh questionnaire.sh
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories
+git add .
