@@ -7,3 +7,4 @@ clear
 help
 help type
 type echo
+type read
